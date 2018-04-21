@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class health : MonoBehaviour {
     public Player player;
-    public const int lives= 50;
+    public const int lives = 50;
     private int amount = lives;
 	
     public int getHealth()
@@ -15,7 +15,7 @@ public class health : MonoBehaviour {
 
     public void loseHealth ( int amount)
     {
-        this.amount -= amount;
+        this.amount = this.amount - amount;
         if ( this.amount <= 0)
         {
             if (this.tag == "Player")
