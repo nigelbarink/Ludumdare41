@@ -47,7 +47,7 @@ public class gameManager : MonoBehaviour {
     void uiUpdate()
     {
         lives.text = string.Format("Lives left: {0}", _playerLives);
-        enemyLivesDEBUG.text = string.Format("Enemy Lives: {0}", enemyH.getHealth().ToString());
+        //enemyLivesDEBUG.text = string.Format("Enemy Lives: {0}", enemyH.getHealth().ToString());
         abilityTimer.text = string.Format("Ability ready in {0}", Mathf.Round(abilityTimeState).ToString());
     }
     public void resetAbilityTimer()
