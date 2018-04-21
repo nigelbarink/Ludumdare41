@@ -5,6 +5,7 @@ licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: SpriteSheet_0
+    21300002: SpriteSheet_1
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -118,6 +119,20 @@ TextureImporter:
         y: 721
         width: 74
         height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 734
+        width: 52
+        height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
